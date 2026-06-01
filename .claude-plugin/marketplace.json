@@ -1,0 +1,39 @@
+{
+  "name": "skills-for-figma",
+  "owner": {
+    "name": "Southleft",
+    "email": "tpitre@gmail.com"
+  },
+  "metadata": {
+    "description": "Agent skills for the native Figma MCP server — design tokens, components, accessibility, Slides, and FigJam.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skills-for-figma",
+      "description": "18 skills for the native Figma MCP: export/import design tokens, manage variables, analyze and document component sets, lint for WCAG and design-system compliance, audit accessibility, and author Slides and FigJam content.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/analyze-component-set-figma",
+        "./skills/annotations-figma",
+        "./skills/arrange-component-set-figma",
+        "./skills/audit-accessibility-figma",
+        "./skills/build-slides-figma",
+        "./skills/check-design-parity-figma",
+        "./skills/component-properties-figma",
+        "./skills/create-figjam-content",
+        "./skills/deep-component-figma",
+        "./skills/design-system-inventory-figma",
+        "./skills/export-tokens-figma",
+        "./skills/generate-component-doc-figma",
+        "./skills/import-tokens-figma",
+        "./skills/library-variables-figma",
+        "./skills/lint-design-figma",
+        "./skills/manage-variables-figma",
+        "./skills/scan-code-accessibility-figma",
+        "./skills/setup-design-tokens-figma"
+      ]
+    }
+  ]
+}

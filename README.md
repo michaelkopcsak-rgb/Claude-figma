@@ -20,14 +20,22 @@ APIs — token reads use the Plugin API, so they work on any Figma plan.
 
 ## Install
 
+### Claude Code plugin (one command)
+
+```
+/plugin marketplace add southleft/skills-for-figma
+/plugin install skills-for-figma@skills-for-figma
+```
+
+### Manual (any host)
+
 ```bash
 git clone https://github.com/southleft/skills-for-figma.git
 cd skills-for-figma
-# copy the skill folders into your agent's skills directory:
-cp -R *-figma create-figjam-content ~/.claude/skills/
+cp -R skills/* ~/.claude/skills/
 ```
 
-For other hosts, drop the same folders into that tool's skills directory (e.g. `.codex/skills/`,
+For other hosts, drop the folders from `skills/` into that tool's skills directory (e.g. `.codex/skills/`,
 `.gemini/skills/`). Once installed, an agent auto-selects a skill from your request, or you can invoke one
 explicitly with `/skill-name`.
 
