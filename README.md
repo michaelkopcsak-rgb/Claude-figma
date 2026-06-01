@@ -20,6 +20,17 @@ APIs — token reads use the Plugin API, so they work on any Figma plan.
 
 ## Install
 
+### npx — any agent (Claude Code, Codex, Cursor, Gemini CLI, …)
+
+```bash
+npx skills add southleft/skills-for-figma          # install all skills
+npx skills add southleft/skills-for-figma --list   # preview without installing
+npx skills add southleft/skills-for-figma --skill export-tokens-figma   # just one
+```
+
+Powered by the [`skills`](https://github.com/vercel-labs/skills) CLI — it detects your agent and drops
+each skill into the right directory.
+
 ### Claude Code plugin (one command)
 
 ```
